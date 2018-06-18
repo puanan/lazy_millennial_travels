@@ -1,70 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
-  Wander[laze]
-  <link href="CSS/bootstrap.min.css" rel="stylesheet">
-  <link href="CSS/home.css" rel="stylesheet"
-</head>
-<h1>Adj. The desire to explore quirky hidden gems on a city holiday </h1>
-<h2>Wander[laze] gives you some of our favorite spots, from cheap eats to high teas, to escape the tourist-infested or chains for your next holiday. Don't see the city you're visiting on here? Just contact us below and we'll see if we can't put together a nice little list for you!</h2>
-<ul>
-  <li><a href="newyork.html">New York<a/></li>
-  <li><a href="paris.html">Paris</a></li>
-  <li><a href="amsterdram.html">Amsterdam<a/></li>
-  <li>Contact</li>
-  <li>Subscribe</li>
-</ul>
-
-</html>
-=======
   <title>WANDER[laze]</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="CSS/home.css/>
-
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="home.html">Wander[laze]</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="home.html">Home</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="newyork.html">New York</a></li>
-            <li><a href="london.html">London</a></li>
-            <li><a href="amsterdam.html">Amsterdam</a></li>
-          </ul>
-        </li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-  </nav>
-
-
-
-
-
-  <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
+  <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+  <!--Using the external bootstrap so we don't have to download the cute icons
+  <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css"></link>-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/home.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"></link>
+  <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
         width: 70%;
         margin: auto;
     }
     </style>
-  </head>
-
+</head>
 
   <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Wander[laze]</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Take me to<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="newyork.html">New York</a></li>
+              <li><a href="london.html">London</a></li>
+              <li><a href="amsterdam.html">Amsterdam</a></li>
+            </ul>
+            </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-sunglasses"></span> Who are we?</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-heart-empty"></span> Contact us!</a></li>
+        </ul>
+      </div>
+    </nav>
 
   <div class="container">
     <br>
@@ -127,11 +104,39 @@
   </div>
 
 
-    <h1>Adj. The desire to explore quirky hidden gems on a city holiday </h1>
-
-    <h2>Wander[laze] gives you some of our favorite spots, from cheap eats to high teas, to escape the tourist-infested or chains for your next holiday. Don't see the city you're visiting on here? Just contact us below and we'll see if we can't put together a nice little list for you!</h2>
+<div id="buzz" class="text-center">
+    <h2 class="custom_font2">Adventure Awaits!<br /><small>Let's explore quirky hidden gems on a city holiday!</small></h2>
+    <div class='row'>
+      <div class='col-sm-4'>
+    <div>
+      <img class="img-circle image-humans" src='images/Jane.svg'>
+      <blockquote>
+      <p class="lead custom_font2">Wander[laze] gives you some of our favorite spots, from cheap eats to high teas, to escape the tourist-infested or chains for your next holiday.</p>
+      <p class="lead custom_font2"><small>Jane, 23 yrs, Netherlands</small></p>
+    </blockquote>
+    </div>
+  </div>
+  <div class='col-sm-4'>
+    <div>
+      <img class="img-circle image-humans" src='images/Julie.svg'>
+      <blockquote>
+      <p class="lead custom_font2">Don't see the city you're visiting on here? Just contact them via that heart above and they will put together a nice little list for you!</p>
+      <p class="lead custom_font2"><small>Juliette, 18 yrs, France</small></p>
+    </blockquote>
+    </div>
+  </div>
+    <div class='col-sm-4'>
+    <div>
+      <img class="img-circle image-humans" src='images/James.svg'>
+      <blockquote>
+      <p class="lead custom_font2">Went on holidays with my mum and she loved it!</p>
+      <p class="lead custom_font2"><small>James, 21, UK</small></p>
+</blockquote>
+    </div>
+  </div>
+  </div>
+</div>
 
   </body>
 
   </html>
->>>>>>> aa0d97acac01954aa5ed7ddf43e35cc298e0879d
