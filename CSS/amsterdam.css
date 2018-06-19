@@ -1,0 +1,32 @@
+.custom_font {
+  font-family: 'Shadows Into Light', cursive;
+font-weight: bold;
+}
+nav{
+  font-family: 'Handlee', cursive;
+}
+.custom_font2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.bgtop{
+
+}
+.bgnights{
+
+}
+
+.bgfood{
+
+
+}
+
+.bgcycle {
+    background-image: url("Images/Amsterdam_Panorama.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
