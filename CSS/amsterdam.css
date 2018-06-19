@@ -1,0 +1,49 @@
+.custom_font {
+  font-family: 'Shadows Into Light', cursive;
+font-weight: bold;
+}
+nav{
+  font-family: 'Handlee', cursive;
+}
+.custom_font2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.bgtop{
+  text-align: center;
+}
+
+.bgnights{
+  width:auto;
+  height: auto;
+  background-image: url('../Images/amsterdam_pink_canal.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8
+
+}
+
+.bgfood{
+  width: auto;
+  height: auto;
+  background-image: url('../Images/amst_food_pan.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8
+
+}
+
+.bgquirky {
+    background-image: url('£');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8
+}
