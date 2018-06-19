@@ -1,6 +1,7 @@
 .custom_font {
   font-family: 'Shadows Into Light', cursive;
-font-weight: bold;
+  font-weight: bold;
+  font-size: 35px;
 }
 nav{
   font-family: 'Handlee', cursive;
@@ -14,7 +15,7 @@ body {
 h1 {
   background-color: #696969;
   color: white;
-  
+  text-align: center;
 }
 
 h2 {
@@ -26,8 +27,23 @@ h2 {
 .item {
 
 }
-
-div {
-  background-image: no-repeat;
-  opacity: 0.5;
+.top_links {
+  background: url("../Images/NYC_background_image.jpg");
+  width: 100%;
+}
+.brooklyn_bridge {
+  background: url("../Images/brooklynbridge.jpg");
+  width: 100%;
+}
+.central_park {
+  background: url("../Images/centralpark.jpg");
+  width: 100%;
+}
+.time_square {
+  background: url("../Images/timesquare.jpg");
+  width: 100%;
+}
+.container {
+  height: 350px;
+  text-align: 
 }
