@@ -1,0 +1,22 @@
+body {
+  background-color: #696969;
+}
+h1 {
+  background-color: #696969;
+  color: white;
+}
+
+h2 {
+  color: #696969;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.item {
+
+}
+
+div {
+  background-image: no-repeat;
+  opacity: 0.5;
+}
