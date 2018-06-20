@@ -1,9 +1,20 @@
+.custom_font {
+  font-family: 'Shadows Into Light', cursive;
+font-weight: bold;
+}
+nav{
+  font-family: 'Handlee', cursive;
+}
+.custom_font2 {
+  font-family: 'Shadows Into Light', cursive;
+}
 body {
   background-color: #696969;
 }
 h1 {
   background-color: #696969;
   color: white;
+
 }
 
 h2 {
