@@ -1,0 +1,79 @@
+nav{
+  font-family: 'Handlee', cursive;
+}
+
+.custom_font {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.custom_font2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+.custom_font3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+/* Social Media buttons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-shrink: 2;
+
+}
+
+.container1 {
+    padding-top: 0px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
