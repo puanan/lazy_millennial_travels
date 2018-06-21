@@ -5,6 +5,16 @@ font-weight: bold;
 .custom_font2 {
   font-family: 'Shadows Into Light', cursive;
 }
+.container {
+  background-color: #A9A9A9;
+  width: 100%;
+}
+.img {
+  text-align: left;
+}
+.ol {
+  text-align: right; 
+}
 
 /* social media buttons*/
 
