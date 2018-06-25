@@ -19,31 +19,36 @@ h1 {
 }
 
 h2 {
-  color: #696969;
+  color: black;
   font-size: 25px;
   font-style: italic;
 }
 
 .item {
-
+  color: black;
+  font-size: 20px;
 }
 .top_links {
-  background: url("../Images/NYC_background_image.jpg");
   width: 100%;
+  height: 450px;
+  background: url("../Images/NYC_background_image.jpg");
+  opacity: 0.5;
 }
 .brooklyn_bridge {
-  background: url("../Images/brooklynbridge.jpg");
+  background: url("../Images/brooklynbridge2.jpg");
   width: 100%;
+  height: 300px;
 }
 .central_park {
-  background: url("../Images/centralpark.jpg");
+  background: url("../Images/centralpark2.jpg");
   width: 100%;
+  height: 300px;
 }
 .time_square {
   background: url("../Images/timesquare.jpg");
   width: 100%;
+  height: 300px;
 }
-.container {
-  height: 350px;
-  text-align: 
+.bg_top {
+  text-align: center;
 }
