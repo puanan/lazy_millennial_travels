@@ -1,33 +1,78 @@
 .custom_font {
   font-family: 'Shadows Into Light', cursive;
-font-weight: bold;
+  font-weight: bold;
 }
 nav{
   font-family: 'Handlee', cursive;
 }
 .custom_font2 {
   font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 16px;
 }
-body {
-  background-color: #696969;
+.custom_font3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 26px;
 }
-h1 {
-  background-color: #696969;
-  color: white;
+
+.bgtop{
+  text-align: center;
+  font-size: 50px;
+}
+
+.bg-img {
+    width:auto;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-img--london1{
+  background-image: url('../Images/ballpit.jpg');
+}
+
+.bg-img--london2{
+  background-image: url('../Images/london5.jpg');
+}
+
+.bg-img--london3{
+    background-image: url('../Images/london6.jpg');
 
 }
 
-h2 {
-  color: #696969;
-  font-size: 25px;
-  font-style: italic;
-}
-
-.item {
+.bg-img--london4{
+    background-image: url('../Images/london8.jpg');
 
 }
 
-div {
-  background-image: no-repeat;
-  opacity: 0.5;
+.bg-img--london5{
+    background-image: url('../Images/london7.jpg');
+
+}
+
+.bg-img--london6{
+    background-image: url('../Images/london4.jpg');
+
+}
+.links {
+  width: 400px;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.links:hover ol {
+  opacity: 1;
+}
+
+.links ol {
+  opacity: 0.3;
 }
