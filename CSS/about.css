@@ -1,19 +1,60 @@
+nav {
+  font-family: 'Handlee', cursive;
+}
+
 .custom_font {
   font-family: 'Shadows Into Light', cursive;
-font-weight: bold;
+  font-weight: bold;
+  font-size: 26px;
 }
+
 .custom_font2 {
   font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
 }
+
+.custom_font3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 23px;
+}
+
 .container {
-  background-color: #A9A9A9;
   width: 100%;
 }
-.img {
-  text-align: left;
+
+.bg_top {
+  text-align: center;
 }
-.ol {
-  text-align: right; 
+
+.bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links {
+  width: 400px;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about1 {
+  background-image: url('../Images/about.jpg');
+}
+
+.ul {
+  text-align: center;
 }
 
 /* social media buttons*/
