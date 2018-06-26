@@ -1,10 +1,12 @@
+nav{
+  font-family: 'Handlee', cursive;
+}
+
 .custom_font {
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
 }
-nav{
-  font-family: 'Handlee', cursive;
-}
+
 .custom_font2 {
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
@@ -44,25 +46,22 @@ nav{
 
 .bg-img--london3{
     background-image: url('../Images/london6.jpg');
-
 }
 
 .bg-img--london4{
     background-image: url('../Images/london8.jpg');
-
 }
 
 .bg-img--london5{
     background-image: url('../Images/london7.jpg');
-
 }
 
 .bg-img--london6{
     background-image: url('../Images/london4.jpg');
-
 }
+
 .links {
-  width: 400px;
+  width: 600px;
   background-color: white;
   opacity: 0.7;
   border-radius: 8px;
