@@ -23,20 +23,6 @@ nav {
   width: 100%;
 }
 
-.bg_top {
-  text-align: center;
-}
-
-.bg-img {
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.8;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .links {
   width: 400px;
   background-color: white;
@@ -46,6 +32,10 @@ nav {
 }
 
 .about {
+  text-align: center;
+}
+
+.bg_top {
   text-align: center;
 }
 
@@ -115,4 +105,21 @@ img {
   justify-content: space-evenly;
   flex-shrink: 2;
 
+}
+
+.bg-img {
+    width:auto;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-img--contact{
+  background-image: url('../Images/about.jpg');
 }
