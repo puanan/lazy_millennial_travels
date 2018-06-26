@@ -2,24 +2,23 @@ nav{
   font-family: 'Handlee', cursive;
 }
 
-body {
-  background-image: url(../Images/caribbean.jpg);
-}
-
 .custom_font {
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
   font-size: 30px;
+  color: white;
 }
 
 .custom_font2 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
+  color: white;
 }
 
 .custom_font3 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
+  color: white;
 }
 
 /* Social Media buttons*/
@@ -80,4 +79,20 @@ body {
     padding-right: 80px;
     padding-bottom: 50px;
     padding-left: 80px;
+}
+
+.bg-img {
+    width:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-img--paradise{
+  background-image: url('../Images/beach.jpg');
 }

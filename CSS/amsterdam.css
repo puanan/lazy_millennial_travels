@@ -53,11 +53,3 @@ nav{
   border-radius: 8px;
   margin-top: 20px;
 }
-
-.links:hover ol {
-  opacity: 1;
-}
-
-.links ol {
-  opacity: 0.3;
-}

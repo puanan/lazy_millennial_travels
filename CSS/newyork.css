@@ -63,18 +63,3 @@ nav{
   border-radius: 8px;
   margin-top: 20px;
 }
-
-.links:hover ol {
-  opacity: 1;
-}
-
-.links ol {
-  opacity: 0.3;
-}
-.links:hover ul {
-  opacity: 1;
-}
-
-.links ul {
-  opacity: 0.3;
-}
