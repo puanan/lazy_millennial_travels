@@ -2,7 +2,11 @@ nav{
   font-family: 'Handlee', cursive;
 }
 
+font {
+  black
+}
 
+/*
 .custom_font {
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
@@ -81,7 +85,7 @@ nav{
     padding-bottom: 50px;
     padding-left: 80px;
 }
-
+/*
 .bg-img {
     width:auto;
     background-position: center;
@@ -96,3 +100,4 @@ nav{
 
 .bg-img--paradise{
   background-image: url('../Images/beach.jpg');
+
