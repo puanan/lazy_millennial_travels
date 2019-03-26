@@ -1,1 +1,155 @@
-<a href="home.html">Home</a>
+<!DOCTYPE html>
+<html lang="en">
+<title>WANDER[laze]</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>WANDER</b>[laze]</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">
+        <div class="w3-dropdown-hover">Destinations
+             <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                 <a href="amsterdam.html" class="w3-bar-item w3-button">Amsterdam</a>
+                 <a href="bali.html" class="w3-bar-item w3-button">Bali</a>
+                 <a href="phiphi.html" class="w3-bar-item w3-button">Ko Phi Phi</a>
+                 <a href="kvarner.html" class="w3-bar-item w3-button">Kvarner Bay</a>
+                 <a href="london.html" class="w3-bar-item w3-button">London</a>
+                <a href="newyork.html" class="w3-bar-item w3-button">New York City</a>
+              </div>
+        </div>
+      </a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+        <a href="fave.html" class="w3-bar-item w3-button">Fave</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Automatic Slideshow Images -->
+<div class="mySlides w3-display-container w3-center">
+    <img src="Images/amsterdam_night.jpg" style="width:100%">
+       <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white">
+                 <!-- <span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> for blackout background -->
+            <span class="w3-hide-small w3-text-light-grey">slogan here</span></h1> </div>
+  </div>
+
+<div class="mySlides w3-display-container w3-center">
+    <img src="Images/nyc1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+    </div>
+  </div>
+
+<div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+    </div>
+  </div>
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Featured -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Featured Cities</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="Images/london5.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-xlarge">
+        <a href="https://www.facebook.com"></a><i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <a href="https://www.instagram.com"></a><i class="fa fa-instagram w3-hover-opacity"></i>
+        <a href="https://www.snapchat.com"></a><i class="fa fa-snapchat w3-hover-opacity"></i>
+        <a href="https://www.pinterest.com"></a><i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <a href="https://www.twitter.com"></a><i class="fa fa-twitter w3-hover-opacity"></i>
+        <a href="https://www.linkedin.com"></a><i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">WANDER[laze] 2018</p></footer>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+</script>
+
+</div>
+</body>
+</html>
+
+
